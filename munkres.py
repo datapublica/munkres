@@ -290,9 +290,9 @@ __all__     = ['Munkres', 'make_cost_matrix']
 # ---------------------------------------------------------------------------
 
 # Info about the module
-__version__   = "1.0.5.4"
+__version__   = "1.0.5.5"
 __author__    = "Brian Clapper, bmc@clapper.org"
-__url__       = "http://software.clapper.org/munkres/"
+__url__       = "http://github.com/datapublica/munkres"
 __copyright__ = "(c) 2008 Brian M. Clapper"
 __license__   = "BSD-style license"
 
