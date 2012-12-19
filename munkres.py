@@ -727,7 +727,8 @@ def print_matrix(matrix, msg=None):
     width = 0
     for row in matrix:
         for val in row:
-            width = max(width, int(math.log10(val)) + 1)
+            val_width = int(math.log10(abs(val))) + 1 if val != 0 else 0
+            width = max(width, val_width)
 
     # Make the format string
     format = '%%%dd' % width
