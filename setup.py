@@ -27,9 +27,9 @@ license = munkres.__license__
 # Run setup
 
 setup(
-    name="munkres",
+    name="munkres3",
     version=version,
-    description="munkres algorithm for the Assignment Problem",
+    description="munkres algorithm for the Assignment Problem. Python 3 port.",
     long_description=long_description,
     url=url,
     license=license,
